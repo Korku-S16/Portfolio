@@ -35,6 +35,7 @@ const HomePage = () => {
               Contact Me
             </button>
           </div>
+         
         </div>
       </div>
     </motion.div>
