@@ -4,30 +4,31 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRef } from "react";
 
+
 const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
     title: "MASTER MUSIC",
     desc: "The Master Music Course app provides structured lessons in music theory and instrument training, with interactive tutorials and practice exercises. It tracks progress and offers personalized learning paths.",
-    img: "https://images.pexels.com/photos/18073372/pexels-photo-18073372/free-photo-of-young-man-sitting-in-a-car-on-a-night-street.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    img:"/images/Music.jpg",
+    link: "https://github.com/Korku-S16/MasterMusic.git",
   },
   {
     id: 2,
     color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "Food Delivery App",
+    desc: "Our Food Delivery Frontend application is designed to provide users with a seamless and intuitive experience for ordering their favorite meals from local restaurants. Built with a focus on user experience, the frontend offers a clean, responsive interface that works flawlessly across all devices, including desktops, tablets, and smartphones.",
+    img: "/images/food delivery.jpg",
+    link: "https://food-delivery-app-eight-chi.vercel.app/",
   },
   {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "Vanilla Book App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "Portfolio app",
+    desc: "Our Portfolio App is a sleek and modern platform designed to showcase your work, skills, and accomplishments in a visually appealing and organized manner. Tailored for professionals, creatives, and freelancers, this app allows you to build a personalized online portfolio that highlights your expertise and experience",
+    img: "/images/portfolio.jpg",
+    link: "https://portfolio-one-bay-38.vercel.app/",
   },
  
 ];
